@@ -1,0 +1,66 @@
+body{
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2015/07/18/simple-backgrounds.jpg);
+}
+.nav-link{
+  color:rgb(221, 245, 3);
+}
+.text{
+    padding-left:5% ;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+button {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .butt{
+      padding-right: 40%;
+      padding-left: 40%;
+  }
+  .slide {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 30px 13px;
+    outline: 0;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(106, 168, 5);
+  }
+  
+  .slide i {
+    opacity: 0;
+    font-size: 13px;
+    transition: 0.2s;
+    position: absolute;
+    right: 10px;
+    top: 21px;
+    transition: transform 1;
+  }
+  
+  .slide div {
+    transition: transform 0.8s;
+  }
+  
+  .slide:hover div {
+    transform: translateX(-6px);
+  }
+  
+  .slide::after {
+    content: "";
+    background-color: #0a27a8;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+  }
+  
+  .slide:hover i {
+    opacity: 1;
+    transform: translateX(-6px);
+  }
+  .linko{
+      text-decoration: none;
+  }
