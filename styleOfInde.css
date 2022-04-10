@@ -1,5 +1,12 @@
 body{
-  background-image: url(https://free4kwallpapers.com/uploads/originals/2015/07/18/simple-backgrounds.jpg);
+  background-image: url(https://cutewallpaper.org/21/background-gif-html/Animated-Gif-Background-Image-Html-a-The-Best-HD-Wallpaper.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+footer{
+  padding-top: 99%;
 }
 .nav-link{
   color:rgb(221, 245, 3);

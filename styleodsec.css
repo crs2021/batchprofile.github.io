@@ -1,9 +1,15 @@
 body{
-    background-image: url(https://free4kwallpapers.com/uploads/originals/2015/07/18/simple-backgrounds.jpg);
+  background-image: url(https://cutewallpaper.org/21/background-gif-html/Animated-Gif-Background-Image-Html-a-The-Best-HD-Wallpaper.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 .lnk{
     text-decoration: none;
-    color: rgb(248, 225, 20);
+    color: rgb(0, 0, 0);
+    border: 10px;
+    border-color: darksalmon;
 }
 .cards-list {
     z-index: 0;
@@ -42,7 +48,7 @@ body{
     font-family: sans-serif;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: -30%;
     height: 40px;
   }
   
